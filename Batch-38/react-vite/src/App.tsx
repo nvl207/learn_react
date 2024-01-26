@@ -1,3 +1,5 @@
+//26/1/2024
+
 import "./App.css";
 import TodoList from "./components/TodoList";
 
@@ -51,8 +53,11 @@ const Productlist = () => {
 //   );
 // };
 
-function Button() {
-  return <button>Login with Google</button>;
+type TButton = {
+  lable?: string;
+};
+function Button({ lable = "Noname" }: TButton) {
+  return <button>{lable}</button>;
 }
 function App() {
   const h2 = <h2>Hello heading 2</h2>;
@@ -80,6 +85,10 @@ function App() {
       {h2}
       {str}
       <Avatar />
+      <Button lable="Thêm vào giỏ hàng" />
+      <Button lable="Gọi lại tư vấn" />
+      <Button lable="Log-in" />
+      <Button lable="Log-out" />
       <Button />
       <Productlist />
       <TodoList />
