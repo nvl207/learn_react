@@ -75,7 +75,7 @@ function App() {
     <img src="./images/vivo.jpg" alt="" />
     <img src="./images/vivo.jpg" alt="" />
     <ButtonV2 icon = {<FaShoppingBag />} lable="Thêm vào giỏ hàng"/>
-    <ButtonV2 icon ={<FaPhone />} type= "button_dark" lable="Gọi lại tư vấn"/>
+    <ButtonV2 icon ={<FaPhone />} type= "button_dark" lable="Gọi lại đặt hàng"/>
       <h1
         style={{
           color: "blue",
