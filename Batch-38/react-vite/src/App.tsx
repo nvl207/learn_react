@@ -2,6 +2,8 @@
 
 import "./App.css";
 import TodoList from "./components/TodoList";
+import ButtonV2  from "./components/ButtonV2";
+import { FaShoppingBag, FaPhone } from "react-icons/fa";
 
 // định nghĩa 1 component Avatar
 
@@ -70,6 +72,9 @@ function App() {
   };
   return (
     <>
+    <img src="./images/vivo.jpg" alt="" />
+    <ButtonV2 icon = {<FaShoppingBag />} lable="Thêm vào giỏ hàng"/>
+    <ButtonV2 icon ={<FaPhone />} type= "button_dark" lable="Gọi lại tư vấn"/>
       <h1
         style={{
           color: "blue",
